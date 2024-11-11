@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SQL_Injection_Frontend
-build_property.ProjectDir = /Users/isaackelsall/Desktop/SQL-Injection-Frontend/
+build_property.ProjectDir = /Users/isaackelsall/Documents/GitHub/cit13_assignment5/SQL-Injection-Frontend/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

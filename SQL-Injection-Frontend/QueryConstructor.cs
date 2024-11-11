@@ -59,20 +59,18 @@ public class QueryConstructor
   }
   public void safeComposedQuery()
   {
-    // Ask for the course ID
-    Console.Write("Please type the course ID: ");
-    string? courseId = Console.ReadLine();
+    Console.Write("Please type id of a course: ");
+    string? user_defined = Console.ReadLine();
 
-    // Prepare the SQL query to call the safe_course function
-    string sql = "SELECT * FROM safe_course($1);";
+    // Calling the safe_course function and passing the user input
+    string sql = "SELECT * FROM safe_course(@course_id);";
 
-    // Print the query to the console for debugging
     Console.Write("Query to be executed: ");
     Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine(sql);
     Console.ForegroundColor = ConsoleColor.Black;
 
-    // Execute the query using parameterized execution to prevent SQL injection
-    client.query(sql, "course_id", courseId);
+    client.query(sql, "course_id", user_defined);
   }
 }
+

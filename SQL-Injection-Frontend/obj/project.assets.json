@@ -196,11 +196,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/isaackelsall/Desktop/SQL-Injection-Frontend/SQL-Injection-Frontend.csproj",
+      "projectUniqueName": "/Users/isaackelsall/Documents/GitHub/cit13_assignment5/SQL-Injection-Frontend/SQL-Injection-Frontend.csproj",
       "projectName": "SQL-Injection-Frontend",
-      "projectPath": "/Users/isaackelsall/Desktop/SQL-Injection-Frontend/SQL-Injection-Frontend.csproj",
+      "projectPath": "/Users/isaackelsall/Documents/GitHub/cit13_assignment5/SQL-Injection-Frontend/SQL-Injection-Frontend.csproj",
       "packagesPath": "/Users/isaackelsall/.nuget/packages/",
-      "outputPath": "/Users/isaackelsall/Desktop/SQL-Injection-Frontend/obj/",
+      "outputPath": "/Users/isaackelsall/Documents/GitHub/cit13_assignment5/SQL-Injection-Frontend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/isaackelsall/.nuget/NuGet/NuGet.Config"
