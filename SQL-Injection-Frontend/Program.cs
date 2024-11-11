@@ -17,27 +17,33 @@ QueryConstructor qConstructor = new QueryConstructor();
 // the user interface
 string? s = "x";
 
-do {
+do
+{
   Console.Write("Please select character + enter\n"
           + "'d' (dynamic query)\n"
           + "'c' (composed query)\n"
+          + "'sc' (safe composed query)\n"
           + "'x' (exit)\n"
           + ">");
   s = Console.ReadLine();
   Console.WriteLine();
-  switch (s) {
-     case "d":
-       qConstructor.dynamicQuery();
-       break;
-     case "c":
-       qConstructor.composedQuery();
-       break;
-     case "x": 
-       Console.WriteLine("exiting ..");
-       break;
-     default:
-       Console.WriteLine("you typed " + "'" + s + "'" + " -- please use a suggested value");
-       break;
-   } // end switch
+  switch (s)
+  {
+    case "d":
+      qConstructor.dynamicQuery();
+      break;
+    case "c":
+      qConstructor.composedQuery();
+      break;
+    case "x":
+      Console.WriteLine("exiting ..");
+      break;
+    case "sc":
+      qConstructor.safeComposedQuery();
+      break;
+    default:
+      Console.WriteLine("you typed " + "'" + s + "'" + " -- please use a suggested value");
+      break;
+  } // end switch
 } while (s != "x");
 
